@@ -65,7 +65,7 @@
         <div class="headline">
             <div class="container">
                 <h2>Lesson 3 Highlights</h2>
-                <h3>INSERT YOUR NAME</h3>
+                <h3>Mary Hohman</h3>
             </div>
         </div>
     </header>
@@ -77,55 +77,70 @@
 
         <!-- First Featurette -->
         <div class="featurette" id="topic1">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/1VCSMess.jpg">
             <h2 class="featurette-heading">Highlight #1
-                <span class="text-muted">Topic 1 Header</span>
+                <span class="text-muted">Version Control – Summary</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Version Control is one main place for all project files. Team members check files out make changes and check them back in. All versions of a file are saved. This system keeps a revision history including when a file was changed, who changed it, how the versions differ and it merges changes to a file. 
+The advantages of a VCS are that files cannot be overwritten, people can work on the same file simultaneously and you can go back to previous versions.  Each system has a remote repository that is shared by multiple people and a local repository that is on the individual’s computer.
+</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
         <div class="featurette" id="topic2">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/2Types.png">
             <h2 class="featurette-heading">Highlight #2
-                <span class="text-muted">Topic 2 Header</span>
+                <span class="text-muted">Types of Version Control Systems</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">There are three main types of Version Control Systems: Local, Centralized and Distributed. One common local system is called RCS, it keeps track of the differences between files and there is only one system so if it is corrupted data can be lost.  A Centralized system allows people to collaborate by using a single server that has all version of a file and it gives administrators full control. One disadvantage of a centralized system is that if the server goes down work stops. A distributed system like Git provides a full copy of the data. If one copy goes down or is corrupted there is a backup available. </p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
         <div class="featurette" id="topic3">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/3VCS.png">
             <h2 class="featurette-heading">Highlight #3
-                <span class="text-muted">Topic 3 Header</span>
+                <span class="text-muted">Git Basics</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Git is an open source distributed version control system that can handle small or large projects. It was created in 2005 and is fast, simple, non-linear.  A full copy of the information is stored locally on locally on a machine and a copy is on a main server.  A local repository allows a person to be able to work off line and it makes the system fast. Git saves changes with a snapshot or picture of how the data looks at a specific time. Each file can either be tracked or untracked. Tracked files can be unmodified, modified, or staged. There are three sections of a git project, the git directory, the working directory and the staging area.</p>
         </div>
         
         <hr class="featurette-divider">
         
        <!-- Fourth Featurette -->
         <div class="featurette" id="topic4">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-left" src="images/4gitKitty.jpg">
             <h2 class="featurette-heading">Highlight #4
-                <span class="text-muted">Topic 4 Header</span>
+                <span class="text-muted">Git Commands. </span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">There are three steps in Git -  Add, Commit, and Push. To begin you can either import or clone a Git repository. 
+$ git init – creates a new local subdirectory that contains all needed files
+$ git add *.c 
+$git add LICENSE
+$git commit -m “initial project version’
+Or 
+$git clone “web address” – this create a directory and initializes it. 
+$ git status – view all of the new or modified files to be committed.
+</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Fifth Featurette -->
         <div class="featurette" id="topic5">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images/5NoMoreWhiteOut.jpg">
             <h2 class="featurette-heading">Highlight #5
-                <span class="text-muted">Topic 5 Header</span>
+                <span class="text-muted">Local and Remote</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Create a local and remote directory with a GitHub account that will serve as the remote directory. Use a Cloud 9 account for the local directory. You must link the two accounts by providing a SSH key and passwords for each account. To configure Cloud 9 for git you can follow these commands.
+$git config – global user.name “Mary Hohman”
+$git config – global user email “mhohman@fsu.edu
+Now you can move files to your local directory. $ git ini $git add . $git commit.
+White out is long gone!
+</p>
         </div>
 
         <hr class="featurette-divider">
